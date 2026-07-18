@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Wisdom - Content Repurposing Video Editor</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Font Awesome (fallback + extra icons) -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Decorative BG -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-bg"></div>
+
+    <!-- Top bar -->
+    <div id="topbar">
+        <div class="logo-text">AW.</div>
+        <div class="status-badge">
+            <div class="status-dot"></div>
+            Available for work
+        </div>
+    </div>
+
+    <!-- Side nav -->
+    <nav id="main-nav">
+        <div class="nav-dot active" data-section="0" data-label="Home"></div>
+        <div class="nav-dot" data-section="1" data-label="About"></div>
+        <div class="nav-dot" data-section="2" data-label="Portfolio"></div>
+        <div class="nav-dot" data-section="3" data-label="Skills"></div>
+        <div class="nav-dot" data-section="4" data-label="Services"></div>
+        <div class="nav-dot" data-section="5" data-label="Contact"></div>
+    </nav>
+
+    <!-- ===== SECTION 0: HOME ===== -->
+    <section class="section active" id="sec-0">
+        <div class="section-content home-content">
+            <div class="home-pre">Content Repurposing Video Editor</div>
+            <div class="glitch-wrap" data-text="Anthony Wisdom">
+                <h1 class="home-name">Anthony Wisdom</h1>
+            </div>
+            <p class="home-role">I help, <span>coaches consultants and founders</span> turn one recording into weeks of content <span>that grows their business.</span></p>
+            <div class="home-cta">
+                <a class="btn-glow" onclick="goTo(2)">View Work</a>
+                <a class="btn-outline-glow" onclick="goTo(5)">Get In Touch</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                scroll
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 1: ABOUT ===== -->
+    <section class="section" id="sec-1">
+        <div class="section-content">
+            <div class="about-grid">
+                <div class="about-img-wrap">
+                    <div class="about-img-frame">
+                        <img src="img/DOO.jpg" alt="Portrait">
+                    </div>
+                    <div class="about-img-deco"></div>
+                    <div class="about-badge">
+                        <div style="font-size:.9rem;font-weight:700;">Content </div>
+                        <div style="color:rgba(255,255,255,.7);">Repurposing Expert</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-label">Who I Am</div>
+                    <div class="about-title">Turning <span class="accent">Long Videos,</span><br>Into Content That Performs.</div>
+                    <p class="about-desc">
+                        I'm Anthony Wisdom, a video editor specializing in content repurposing for coaches, consultants, founders and personal brands.
+                        <br><br> I transform long-form recordings into engaging short-form content that helps businesses build authority, stay consistent, and grow without spending hours editing.
+                    </p>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Adobe Premiere Pro</span>
+                        <span class="skill-pill">After Effects</span>
+                        <span class="skill-pill">Motion Graphics</span>
+                        <span class="skill-pill">Content Repurposing</span>
+                        <span class="skill-pill">YouTube Editing</span>
+                        <span class="skill-pill">Podcast Editing</span>
+                        <span class="skill-pill">Color Correction</span>
+                        <span class="skill-pill">Audio Cleanup</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 2: WORK ===== -->
+    <section class="section" id="sec-2">
+        <div class="section-content work-wrap">
+            <div class="section-label">Portfolio</div>
+            <div class="section-title">Selected Work</div>
+            <div class="projects-grid">
+                <div class="project-card"
+
+data-title="Content Repurposing"
+
+data-img="img/portfolio/work11.jpg"
+
+data-video="img/Video/before-and-after-1.mp4"
+
+data-tags="Instagram,Reels"
+
+data-desc="Repurposed long-form content into engaging short-form clips."
+
+data-role="Video Editor"
+
+data-year="2026"
+
+data-stack="Premiere Pro · After Effects">
+
+<img src="img/portfolio/work11.jpg">
+
+<div class="project-overlay">
+
+<div class="project-tag">Talking Head</div>
+
+<div class="project-name">Instagram Reel</div>
+
+<span class="project-link">
+<i class="bi bi-play-circle"></i>
+Watch Video
+</span>
+
+</div>
+
+</div>
+<div class="project-card"
+
+data-title="Coach Content"
+
+data-img="img/portfolio/work22.jpg"
+
+data-video="img/Video/before-and-after.mp4"
+
+data-tags="Short Form"
+
+data-desc="Talking-head edit with captions and motion graphics."
+
+data-role="Editor"
+
+data-year="2026"
+
+data-stack="Premiere Pro">
+
+<img src="img/portfolio/work22.jpg">
+
+<div class="project-overlay">
+
+<div class="project-tag">Talking Head</div>
+
+<div class="project-name">Content Repurposing</div>
+
+<span class="project-link">
+<i class="bi bi-play-circle"></i>
+Watch Video
+</span>
+
+</div>
+
+</div>
+<div class="project-card"
+
+data-title="Podcast Clip"
+
+data-img="img/portfolio/work55.jpg"
+
+data-video="img/Video/online-post.mp4"
+
+data-tags="Podcast"
+
+data-desc="Podcast turned into viral short."
+
+data-role="Editor"
+
+data-year="2026"
+
+data-stack="Premiere Pro">
+
+<img src="img/portfolio/work55.jpg">
+
+<div class="project-overlay">
+
+<div class="project-tag">Podcast</div>
+
+<div class="project-name">Short Clip</div>
+
+<span class="project-link">
+<i class="bi bi-play-circle"></i>
+Watch Video
+</span>
+
+</div>
+
+</div>
+<div class="project-card"
+
+data-title="Business Reel"
+
+data-img="img/portfolio/work33.jpg"
+
+data-tags="Instagram"
+
+data-desc="Edited a business promotional reel with captions, transitions and engaging pacing."
+
+data-video="img/Video/main-video-with-effect.mp4"
+
+data-role="Editor"
+
+data-year="2026"
+
+data-stack="Premiere Pro">
+
+<img src="img/portfolio/work33.jpg">
+
+<div class="project-overlay">
+
+<div class="project-tag">Business</div>
+
+<div class="project-name">Instagram Reel</div>
+
+<span class="project-link">
+<i class="bi bi-play-circle"></i>
+Watch Video
+</span>
+
+</div>
+
+</div>
+<div class="project-card"
+
+data-title="Motion Graphics"
+
+data-img="img/portfolio/work44.jpg"
+
+data-video="img/Video/motin-graphic-full-editing.mp4"
+
+data-tags="YouTube"
+
+data-desc="Long-form horizontal motion graphics project."
+
+data-role="Motion Designer"
+
+data-year="2026"
+
+data-stack="Premiere Pro · After Effects">
+
+<img src="img/portfolio/work44.jpg">
+
+<div class="project-overlay">
+
+<div class="project-tag">Horizontal</div>
+
+<div class="project-name">YouTube Video</div>
+
+<span class="project-link">
+<i class="bi bi-play-circle"></i>
+Watch Video
+</span>
+
+</div>
+
+</div> 
+<div class="project-card"
+    data-title="More Projects Available"
+    data-img="img/portfolio/work66.jpg"
+    data-tags="On Demand"
+    data-desc="I have many more client projects that cannot be publicly displayed due to confidentiality. Contact me to see additional work relevant to your industry."
+    data-role="Video Editor"
+    data-year="2026"
+    data-stack="Premiere Pro · After Effects">
+
+    <img src="img/portfolio/work66.jpg" alt="More Projects">
+
+    <div class="project-overlay">
+
+        <div class="project-tag">Private Work</div>
+
+        <div class="project-name">More Projects</div>
+
+        <span class="project-link">
+            <i class="bi bi-envelope-fill"></i>
+            Contact Me
+        </span>
+
+         </div>
+
+        </div>
+        </div>
+     </div>
+</section>
+
+    <!-- ===== SECTION 3: SKILLS/STATS ===== -->
+    <section class="section" id="sec-3">
+        <div class="section-content stats-wrap">
+            <div class="section-label">Numbers</div>
+            <div class="section-title">By the Stats</div>
+         <div class="stats-grid">
+
+    <div class="stat-card">
+        <div class="stat-num">
+            <span class="counter" data-target="50">0</span>+
+        </div>
+
+        <div class="stat-label">
+            Videos Edited
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-num">
+            <span class="counter" data-target="24">0</span>hr
+        </div>
+
+        <div class="stat-label">
+            Fast Turnaround
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-num">
+            <span class="counter" data-target="100">0</span>+
+        </div>
+
+        <div class="stat-label">
+            Short Clips Created
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-num">
+            <span class="counter" data-target="100">0</span>%
+        </div>
+
+        <div class="stat-label">
+            Remote Friendly
+        </div>
+    </div>
+
+</div>
+            <div class="skills-bars">
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-label"><span>Talking Head Editing</span><span>95%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-label"><span>Short-form Editing</span><span>88%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-label"><span>Motion Graphics</span><span>80%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar-label"><span>Real Estate Videos</span><span>72%</span></div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="72"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 4: SERVICES ===== -->
+    <section class="section" id="sec-4">
+        <div class="section-content services-wrap">
+            <div class="section-label">What I Do</div>
+            <div class="section-title">Services</div>
+            <div class="services-grid">
+
+    <div class="service-card">
+        <div class="service-icon">🎬</div>
+        <div class="service-name">Content Repurposing</div>
+        <div class="service-desc">
+            Turn one long-form video into multiple short-form clips for Instagram, TikTok, LinkedIn and YouTube Shorts.
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">✂️</div>
+        <div class="service-name">Short-Form Video Editing</div>
+        <div class="service-desc">
+            High-retention short videos with captions, zooms, transitions and engaging pacing.
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🎙️</div>
+        <div class="service-name">Podcast Editing</div>
+        <div class="service-desc">
+            Clean audio, remove mistakes, add branding elements and prepare episodes for publishing.
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">📺</div>
+        <div class="service-name">YouTube Editing</div>
+        <div class="service-desc">
+            Professional editing for talking-head videos, interviews, educational content and vlogs.
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <div class="service-name">Motion Graphics</div>
+        <div class="service-desc">
+            Animated titles, lower thirds, callouts and visual elements that improve viewer engagement.
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🎧</div>
+        <div class="service-name">Audio Enhancement</div>
+        <div class="service-desc">
+            Noise reduction, audio cleanup and balancing for a professional listening experience.
+        </div>
+    </div>
+</div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 5: CONTACT ===== -->
+    <section class="section" id="sec-5">
+        <div class="section-content contact-wrap">
+            <div class="section-label">Let's Talk</div>
+            <div class="section-title">Start a Project</div>
+            <p class="contact-sub">Need consistent content without spending hours editing? Let's talk.</p>
+            <form
+    class="contact-form"
+    action="https://formsubmit.co/Anthonywisdomzeal@gmail.com"
+    method="POST">
+
+    <div class="cf-row">
+
+        <input
+            class="cf-field"
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required>
+
+        <input
+            class="cf-field"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required>
+
+        <textarea
+            class="cf-field"
+            name="message"
+            placeholder="Tell me about your project..."
+            required></textarea>
+
+    </div>
+
+    <input type="hidden" name="_subject" value="New Portfolio Message">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <button type="submit" class="btn-glow">
+        Send Message
+        <i class="bi bi-send-fill"></i>
+    </button>
+
+</form>
+            <div class="socials">
+                 <!--<a href="#" class="social-btn" title="GitHub"><i class="bi bi-github"></i></a>-->
+                <a href="#" class="social-btn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <!-- <a href="#" class="social-btn" title="Instagram"><i class="bi bi-instagram"></i></a> -->
+           <a href="mailto:Anthonywisdomzeal@gmail.com"
+   class="social-btn"
+   title="Email">
+    <i class="bi bi-envelope-fill"></i>
+</a>
+               <!--<a href="#" class="social-btn" title="Behance"><i class="bi bi-behance"></i></a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECT POPUP MODAL ===== -->
+    <div id="proj-modal" role="dialog" aria-modal="true">
+        <div class="modal-backdrop-blur" id="modal-backdrop"></div>
+        <div class="modal-box">
+            <div class="modal-img-wrap">
+
+    <img id="modal-image"
+         class="modal-hero-img"
+         src=""
+         style="display:none;">
+
+    <video id="modal-video"
+           class="modal-hero-img"
+           controls
+           playsinline
+           preload="metadata">
+    </video>
+
+    <div class="modal-img-gradient"></div>
+
+   <button class="modal-close-btn" id="modal-close" aria-label="Close">
+    
+        <i class="bi bi-x-lg"></i>
+      </button>
+            </div>
+            <div class="modal-body-wrap">
+                <div class="modal-tags-row" id="modal-chips"></div>
+                <div class="modal-title" id="modal-title"></div>
+                <p class="modal-desc" id="modal-desc"></p>
+                <div class="modal-meta-grid">
+                    <div class="modal-meta-item">
+                        <span class="modal-meta-label">My Role</span>
+                        <span class="modal-meta-val" id="modal-role"></span>
+                    </div>
+                    <div class="modal-meta-item">
+                        <span class="modal-meta-label">Year</span>
+                        <span class="modal-meta-val" id="modal-year"></span>
+                    </div>
+                    <div class="modal-meta-item">
+                        <span class="modal-meta-label">Tech Stack</span>
+                        <span class="modal-meta-val" id="modal-stack"></span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <a id="modal-live" href="#" class="mbtn-primary" target="_blank">
+          <i class="bi bi-play-circle-fill"></i> Watch Project
+        </a>
+                    <a id="modal-github" href="#" class="mbtn-secondary" target="_blank">
+          <i class="bi bi-film"></i> View Before & After
+        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <!-- jQuery -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- jQuery -->
+   <!--  <script src="js/jquery-3.7.1.min.js"></script>-->
+    <!-- Bootstrap 5 JS -->
+    <!-- GSAP -->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"d5067365fe2244deadba33f0d1c9c822","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
